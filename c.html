@@ -1,0 +1,594 @@
+<!-- Created by 🌸Hacky Abinash🌸 -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Abinash</title>
+        <style>
+/* Created by 🌸Hacky Abinash🌸 */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+body {
+    position:fixed;    
+}
+*{
+    margin:0;
+    padding:0;
+}
+#hb{
+    position:absolute;
+    height:100vh;
+    width:100vw;
+    left:0;
+    background:cyan; background:url("https://media.tenor.com/images/956ca9abe845849cf984cd548bbafe2d/tenor.gif");
+    background-size:100vw 100vh;
+    background-repeat:no-repeat;
+    transition:2.3s ;
+}
+#in{
+    position:absolute;
+    width:50vw;
+    height:10vh; background:linear-gradient(30deg,black,black,black,black,black,black,white,black);
+    background-size:120vw 80vh;
+    left:25vw;
+    display:block;
+    top:85vh;
+    box-shadow:5px 5px 10px white;
+    animation:2s butt ease-in-out infinite;
+    transition:2.3s;
+    border-radius:3vw;
+    }
+@keyframes butt{
+    0%{
+        background-position:100vw 0vh;  
+        border:3px solid violet;  
+        }
+    100%{
+        background-size:-100vw 15vh;
+        border:3px dashed white;
+    }
+}
+#click{
+    font-family: 'Akaya Telivigala', cursive;
+    font-size:2em;
+    padding-top:2vh;
+    left:-32vw;
+    position:absolute;
+    color:red;
+    text-shadow:1px 1px 1px red;
+    
+}
+#box{
+    height:30vh;
+    width:60vw;
+    position:absolute;
+    background:rgba(250,250,250,0.7);
+    box-shadow:10px 10px 30px black;
+    left:20vw;
+    transform:scale(1.0);
+    top:35vh;
+    border-radius:3vh;
+    border:2px solid black;
+}
+.ad{
+  animation:2s box ease-in-out;  
+  animation-delay:0.1s;
+}
+@keyframes box{
+    0%{
+        left:25vw;
+        transform:scale(0.7);
+        top:35vh;
+        box-shadow:10px 10px 30px gray;
+    }
+    50%{
+        transform:scale(1.2);
+        box-shadow:5px 10px 20px wheat;
+    }
+    100%{
+        transform:scale(1.0);
+        box-shadow:10px 10px 20px black;
+    }
+}
+#box-text{
+     font-family: 'Akaya Telivigala',cursive;
+     font-size:1.5em;
+     position:absolute;
+     color:black;
+     top:5vh;
+     left:-15vw;
+     text-shadow:2px 2px 2px violet;
+     
+        
+}
+#rem{
+    position:absolute;
+    background:black;
+    border:2px solid violet;
+    width:33vw;
+    height:5vh;
+    border-radius:2vh;
+    left:10vw;
+    color:white;
+    font-size:2em;
+    padding-left:7vw;
+    font-family: 'Akaya Telivigala',cursive;
+    top:23vh;
+    padding-bottom:1.2vh;
+    
+}
+#quiz-back{
+    width:96vw;
+    height:96vh;
+    position:absolute;
+    border:2vw solid black;
+    
+}
+#nav{
+    width:96vw;
+    height:8vh;
+    background:lime;
+    position:absolute;
+    border-bottom:0.4vh solid black;
+    box-shadow:0px 5px 10px black;
+}
+#ques{
+    font-family: 'Akaya Telivigala',cursive;
+    font-size:2em; 
+    color:black;
+    position:absolute;
+    left:0vw;
+    top:2vh;
+    text-shadow:0px 2px 3px black;
+}
+#score{
+    font-family: 'Akaya Telivigala',cursive;
+    font-size:2em; 
+    color:black;
+    position:absolute;
+    left:67vw;
+    top:2vh;
+    text-shadow:0px 2px 3px black;
+}
+#ask{
+    display:none;
+}
+.quest{
+    width:70vw;
+    height:40vh;
+    position:absolute;
+    border-radius:3vh;
+    border:0.7vh solid black;
+    top:45vh;
+    left:15vw;
+    background:rgb(250,250,250);
+    transition:3s ease-in-out;
+    transition-delay:1.5s;
+}
+
+.images{
+    width:40vw;
+    height:20vh; 
+    position:absolute;   
+    left:15vw;
+    top:-15vh;
+    box-shadow:0px 10px 15px black;
+    border:0.5vh solid black;
+}
+.write{
+    font-family: 'Akaya Telivigala',cursive;
+    font-size:1.3em; 
+    color:black;
+    position:absolute;
+    text-shadow:0px 2px 3px black; 
+    top:8vh;
+    left:-13vw;
+    text-align:center;
+}
+.options-c{
+    position:absolute;
+    width:35vw;
+    height:5vh;
+    top:35vh;
+    font-size:1.5em;
+    font-family: 'Akaya Telivigala',cursive;
+    color:white;
+    align-items:center;
+    text-align:center;
+    border:0.1vh solid black;
+    background:lime;
+    border-radius:0vh 0vh 0vh 2.9vh;
+}
+.options-w{
+    position:absolute;
+    width:35vw;
+    height:5vh;
+    top:35vh;
+    font-size:1.5em;
+    font-family: 'Akaya Telivigala',cursive;
+    color:white;
+    align-items:center;
+    text-align:center;
+    border:0.1vh solid black;
+    background:tomato;
+    border-radius:0vh 0vh 3vh 0vh;
+    left:35vw;
+}
+
+#q2{
+    top:145vh;
+}
+#q3{
+    top:145vh;
+}
+
+#q4{
+    top:145vh;
+}
+#q5{
+    top:145vh;
+}
+#q6{
+    width:96vw;
+    height:96vh;
+    position:absolute;
+    border:2vw solid black;
+    top:200vh;
+    background:black;
+    transition:3s;
+    transition-delay:1.5s;
+}
+#a{
+    font-size:3em;
+    text-align:center;
+    color:white;
+    position:absolute;
+    text-shadow:0px 5px 7px violet;
+    font-family: 'Akaya Telivigala',cursive;
+    left:-15vw;
+}
+#note{
+    font-size:1.2em;
+    color:violet;
+    position:absolute;
+    text-shadow:0px 2px 3px white;
+    font-family: 'Akaya Telivigala',cursive;
+    top:60vh;
+    left:0vw;
+}
+        </style>
+    </head>
+    <body>
+    <div id="quiz-back">
+    <div id="nav">
+      <div id="score" class="score">
+          Score:0
+      </div>  
+      <div id="ques" class="score">
+          Question:01 
+      </div>  
+    </div>   
+   </div>     
+    
+    
+    <div id="ask">
+        
+    <!--QUIZ QUESTIONS HERE-->
+    
+    <!--Question1-->
+    
+    <div id="q1" class="quest">
+    
+    <img class="images" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwvTkVc98-StgEKiAcwt4PUwtJzmEI9qQAkA&usqp=CAU"/>
+        
+     <pre class="write">
+         In this Pandemic,
+         Were you able to wear the
+         mask permanently wherever 
+         required?
+     </pre> 
+     
+     <button class="options-c" id="op1" onclick="increase()">
+         YES
+     </button>  
+     <button class="options-w" id="op2" onclick="vib()">
+         NO  
+     </button>
+     
+    </div>
+    
+    
+    
+    
+     <div id="q2" class="quest">
+    
+    <img class="images" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBXr1bGYbXjJKoUwT0w3Bm2N8y4u35VwW4xoy1HI1VQV2aor7d&s"/>
+        
+     <pre class="write">
+           In this Pandemic,
+           Were you able to wear the
+           sanitize and wash hands
+           after every hour?
+     </pre> 
+     
+     <button class="options-c" id="op3" onclick="increase()">
+         YES
+     </button>  
+     <button class="options-w" id="op4" onclick="vib()">
+         NO  
+     </button>
+     
+    </div>
+    
+    <div id="q3" class="quest">
+    
+    <img class="images" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqv5ADTQoDjOR4U9RaTmEAmwA77WZW6NhbtCfw8GwXJoX8wsE&s"/>
+        
+     <pre class="write">
+           In this Pandemic,
+           Were you able to bear up
+           the mental stress that 
+           hit your mind?
+     </pre> 
+     
+     <button class="options-c" id="op5" onclick="increase()">
+         YES
+     </button>  
+     <button class="options-w" id="op6" onclick="vib()">
+         NO  
+     </button>
+     
+    </div>
+    
+    
+    
+       <div id="q4" class="quest">
+    
+    <img class="images" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTINMpbES-3puHiJ20Em97V4sNHhDNceIJqjVfgOrSplXMpqhOD&s"/>
+        
+     <pre class="write">
+          In this Pandemic,
+          Were you able to maintain
+          your health good everytime?
+     </pre> 
+     
+     <button class="options-c" id="op7" onclick="increase()">
+         YES
+     </button>  
+     <button class="options-w" id="op8" onclick="vib()">
+         NO  
+     </button>
+     
+    </div>
+    
+    
+    
+    
+    
+    
+        <div id="q5" class="quest">
+    
+    <img class="images" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYUvgOD4o4uHJ4KbykfOnFxD9B1cAmiQdiFYiDmYCP0RUmLVw&s"/>
+        
+     <pre class="write">
+     
+     
+            In this pandemic,Were you 
+            able to utilise your time in
+            creative things?
+        
+     </pre> 
+     
+     <button class="options-c" id="op9" onclick="increase()">
+         YES
+     </button>  
+     <button class="options-w" id="op10" onclick="vib()">
+         NO  
+     </button>
+     
+    </div>
+    
+    
+    <div id="q6">
+  
+    <pre id="a">
+        So its's 
+        time to 
+        ask 
+        questions now.
+        
+    </pre>
+     
+     <pre id="note">
+         All kind(non-abusive and 
+         filtered)
+         of questions
+         are accepted..
+         I will tell what is 
+         personal question or not.
+         
+     </pre>   
+    </div>
+    
+    
+    
+    
+    </div>
+    <!--QUIZ QUESTIONS ENDS-->
+   <div id="box">
+       <pre id="box-text">
+           Ask me Anything.
+           But before that,
+           Let's have a Quiz.
+       </pre>
+       <div id="rem" onclick="quiz()">
+           ENTER
+       </div>
+   </div> 
+    <audio src="https://mobcup.net/d/009eeo9t/mp3" style="display:none" id="tap" controls></audio>
+    <audio src="https://mobcup.net/d/ge7wolpc/mp3" style="display:none" id="yes" controls></audio>
+      <div id="hb"></div>
+      <div id="in" onclick="op()">
+          <pre id="click">
+              CLICK HERE
+          </pre>
+      </div>
+      <script>
+/* Created by 🌸Hacky Abinash🌸 */
+
+alert("Hacky Abinash's Code present");
+alert("Take the quiz test \n I tried to make it good but im having less time \n due to preparations for studies and all\n Btw how was the idea of adding a quiz with this?");
+var cont=200;
+var x=0;
+var q=1;
+function op(){
+document.getElementById("hb").style.width="0vw";
+document.getElementById("in").style.left="100vw"; 
+document.getElementById("tap").play();  
+document.getElementById("box").classList.add("ad");
+}
+function quiz(){
+    document.getElementById("box").style.display="none";
+document.getElementById("ask").style.display="block";
+document.getElementById("tap").play(); 
+}
+
+
+function increase(){
+x++;
+q++; 
+
+document.getElementById("score").innerHTML="Score:"+x;
+if(q!=6)
+document.getElementById("ques").innerHTML="Question:0"+q;
+
+document.getElementById("yes").play();
+if(q==2){
+    document.getElementById("op1").innerHTML="Good😍"; 
+    document.getElementById("q1").style.left="-100vw";
+    document.getElementById("q2").style.top="45vh";
+    var nomoreclick1=document.getElementById("op1");
+    nomoreclick1.disabled=true;
+    var nomoreclick2=document.getElementById("op2");
+nomoreclick2.disabled=true;
+    
+}
+else if(q==3)
+
+
+{
+
+document.getElementById("op3").innerHTML="Good😍"; 
+document.getElementById("q2").style.left="-100vw";
+document.getElementById("q3").style.top="45vh";
+var nomoreclick3=document.getElementById("op3");
+nomoreclick3.disabled=true;
+var nomoreclick4=document.getElementById("op4");
+nomoreclick4.disabled=true;
+}
+
+if(q==4)
+{
+document.getElementById("op5").innerHTML="Good😍"; 
+document.getElementById("q3").style.left="-100vw";
+document.getElementById("q4").style.top="45vh";
+var nomoreclick5=document.getElementById("op5");
+nomoreclick5.disabled=true;
+var nomoreclick6=document.getElementById("op6");
+nomoreclick6.disabled=true;
+}
+else if(q==5)
+{
+document.getElementById("op7").innerHTML="Good😍"; 
+document.getElementById("q4").style.left="-100vw";
+document.getElementById("q5").style.top="45vh";
+var nomoreclick7=document.getElementById("op7");
+nomoreclick7.disabled=true;
+var nomoreclick8=document.getElementById("op8");
+nomoreclick8.disabled=true;
+}
+if(q==6)
+{
+document.getElementById("op9").innerHTML="Good😍"; 
+document.getElementById("q5").style.left="-100vw";
+document.getElementById("q6").style.top="0vh";
+var nomoreclick9=document.getElementById("op9");
+nomoreclick9.disabled=true;
+var nomoreclick10=document.getElementById("op10");
+nomoreclick10.disabled=true;
+if(x<=2)
+alert("You scored "+x+" points\n Your condition was just like mine ");
+if(x>2)
+alert("You scored "+x+" points \n You were good at that time.. :)");
+}
+}
+function vib(){
+q++;
+    window.navigator.vibrate(cont)
+
+   
+    if(q==2)
+    {
+    document.getElementById("op2").innerHTML="Bad🥺";
+document.getElementById("q1").style.left="-100vw";
+document.getElementById("q2").style.top="45vh";
+var nomoreclick2=document.getElementById("op2");
+nomoreclick2.disabled=true;
+var nomoreclick1=document.getElementById("op1");
+nomoreclick1.disabled=true;
+}
+else if(q==3)
+{
+document.getElementById("op4").innerHTML="Bad🥺";
+document.getElementById("q2").style.left="-100vw";
+document.getElementById("q3").style.top="45vh";
+var nomoreclick4=document.getElementById("op4");
+nomoreclick4.disabled=true;
+var nomoreclick3=document.getElementById("op3");
+nomoreclick3.disabled=true;
+}
+if(q!=6)
+document.getElementById("ques").innerHTML="Question:0"+q; 
+
+if(q==4)
+{
+
+document.getElementById("op6").innerHTML="Bad🥺";
+document.getElementById("q3").style.left="-100vw";
+document.getElementById("q4").style.top="45vh";
+var nomoreclick6=document.getElementById("op6");
+nomoreclick6.disabled=true;
+var nomoreclick5=document.getElementById("op5");
+nomoreclick5.disabled=true;
+}
+else if(q==5)
+{
+document.getElementById("op8").innerHTML="Bad🥺";
+document.getElementById("q4").style.left="-100vw";
+document.getElementById("q5").style.top="45vh";
+var nomoreclick8=document.getElementById("op8");
+nomoreclick8.disabled=true;
+var nomoreclick7=document.getElementById("op7");
+nomoreclick7.disabled=true;
+}
+if(q==6)
+{
+document.getElementById("op10").innerHTML="Bad🥺";
+document.getElementById("q5").style.left="-100vw";
+document.getElementById("q6").style.top="-0vh";
+var nomoreclick10=document.getElementById("op10");
+nomoreclick10.disabled=true;
+var nomoreclick9=document.getElementById("op9");
+nomoreclick9.disabled=true;
+if(x<=2)
+alert("You scored "+x+" points\n Your condition was just like mine ");
+if(x>2)
+alert("You scored "+x+" points \n You were good at that time.. :)");
+}
+
+}
+alert("Helped By Abinash");
+      </script>
+    </body>
+</html>
